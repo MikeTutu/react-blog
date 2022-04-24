@@ -24,7 +24,7 @@ function App() {
               <NavBar />
               <About />
             </Route>
-            <Route path="/blog-details">
+            <Route path="/blog-details/:id">
               <NavBar />
               <BlogDetails />
             </Route>
